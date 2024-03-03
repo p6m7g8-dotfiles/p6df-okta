@@ -45,9 +45,6 @@
 #### p6df-okta/init.zsh:
 
 - p6df::modules::okta::deps()
-- p6df::modules::okta::external::brew()
-- p6df::modules::okta::init()
-- p6df::modules::okta::langs()
 
 
 
