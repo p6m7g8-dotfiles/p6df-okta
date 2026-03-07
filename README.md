@@ -17,7 +17,8 @@
 
 ## Summary
 
-TODO: Add a short summary of this module.
+p6df module for Okta: identity provider integration and MCP server
+(`okta-mcp-server` via npm) for AI-driven user and application management.
 
 ## Contributing
 
@@ -36,6 +37,7 @@ TODO: Add a short summary of this module.
 ##### p6df-okta/init.zsh
 
 - `p6df::modules::okta::deps()`
+- `p6df::modules::okta::mcp()`
 
 ## Hierarchy
 
