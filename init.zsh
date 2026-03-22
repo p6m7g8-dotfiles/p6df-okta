@@ -9,6 +9,7 @@
 p6df::modules::okta::deps() {
   ModuleDeps=(
     p6m7g8-dotfiles/p6common
+    RedCupIT/okta-claude-skill
   )
 }
 
