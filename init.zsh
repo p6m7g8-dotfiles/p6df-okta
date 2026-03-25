@@ -16,6 +16,21 @@ p6df::modules::okta::deps() {
 ######################################################################
 #<
 #
+# Function: p6df::modules::okta::home::symlinks()
+#
+#  Environment:	 HOME P6_DFZ_SRC_DIR
+#>
+######################################################################
+p6df::modules::okta::home::symlinks() {
+
+  p6_file_symlink "$P6_DFZ_SRC_DIR/RedCupIT/okta-claude-skill/skills/okta"                                                   "$HOME/.claude/skills/okta"
+
+  p6_return_void
+}
+
+######################################################################
+#<
+#
 # Function: p6df::modules::okta::mcp()
 #
 #>
