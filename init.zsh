@@ -39,5 +39,8 @@ p6df::modules::okta::mcp() {
 
   p6_js_npm_global_install "okta-mcp-server"
 
+  p6df::modules::anthropic::mcp::server::add "okta" "npx" "-y" "okta-mcp-server"
+  p6df::modules::openai::mcp::server::add "okta" "npx" "-y" "okta-mcp-server"
+
   p6_return_void
 }
