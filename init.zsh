@@ -44,3 +44,19 @@ p6df::modules::okta::mcp() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words okta $OKTA_ORG_URL = p6df::modules::okta::profile::mod()
+#
+#  Returns:
+#	words - okta $OKTA_ORG_URL
+#
+#  Environment:	 OKTA_ORG_URL
+#>
+######################################################################
+p6df::modules::okta::profile::mod() {
+
+  p6_return_words 'okta' '$OKTA_ORG_URL'
+}
