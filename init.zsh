@@ -58,5 +58,5 @@ p6df::modules::okta::mcp() {
 ######################################################################
 p6df::modules::okta::profile::mod() {
 
-  p6_return_words 'okta' "$"
+  p6_return_words 'okta' '$OKTA_ORG_URL'
 }
