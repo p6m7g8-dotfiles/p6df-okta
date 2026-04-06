@@ -48,10 +48,10 @@ p6df::modules::okta::mcp() {
 ######################################################################
 #<
 #
-# Function: words okta $OKTA_ORG_URL = p6df::modules::okta::profile::mod()
+# Function: words okta = p6df::modules::okta::profile::mod()
 #
 #  Returns:
-#	words - okta $OKTA_ORG_URL
+#	words - okta
 #
 #  Environment:	 OKTA_ORG_URL
 #>
